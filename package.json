@@ -1,0 +1,18 @@
+{
+  "name": "single-price-grid-component",
+  "version": "1.0.0",
+  "homepage": "https://predeyo.github.io/single-price-grid-component",
+  "description": "single-price-grid-component coding challenge",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "predeploy": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "predeyo",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
