@@ -4,7 +4,7 @@
   "homepage": "https://predeyo.github.io/single-price-grid-component",
   "description": "single-price-grid-component coding challenge",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel index.html",
     "predeploy": "parcel build index.html",
     "deploy": "gh-pages -d dist"
   },
