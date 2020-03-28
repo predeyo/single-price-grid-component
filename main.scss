@@ -37,6 +37,9 @@ body {
 main {
   margin: 4.5rem 2rem 1.5rem 2rem;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .section-top {
@@ -140,8 +143,6 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
     max-width: 39.6rem;
-    border-radius: 0.5rem;
-    overflow: hidden;
     & > * {
       padding: 2.5rem !important;
     }

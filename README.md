@@ -1,4 +1,4 @@
-# Frontend Mentor - Single Price Grid Component
+# Single Price Grid Component
 
 [Live Demo](https://predeyo.github.io/single-price-grid-component)
 

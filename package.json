@@ -5,7 +5,7 @@
   "description": "single-price-grid-component coding challenge",
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "parcel build index.html",
+    "predeploy": "rm -r ./dist && parcel build index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "author": "predeyo",
